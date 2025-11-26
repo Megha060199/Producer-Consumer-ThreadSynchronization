@@ -21,7 +21,7 @@ To generate a browsable HTML coverage report:
 coverage html
 open htmlcov/index.html   # macOS; use your browser to open htmlcov/index.html on other platforms
 ```
-`.coverage` is the binary data file that `coverage run` creates to track executed lines; it is not meant to be stored in Git. `coverage html` reads that data and generates the human-readable HTML report in `htmlcov/`, which you can build locally with the commands above.
+
 
 ## Run the demo message queue
 Execute the sample producer/consumer flow:

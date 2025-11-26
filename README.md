@@ -6,7 +6,7 @@ Lightweight demonstration of a bounded blocking queue with single producer, sing
 - Clone: `git clone <repo-url> && cd MQ`
 - Python: 3.10+ recommended.
 - Create venv: `python -m venv .venv`
-- Activate venv: `source .venv/bin/activate` (macOS/Linux) or `.venv\Scripts\activate` (Windows)
+- Activate venv: `source venv/bin/activate` (macOS/Linux) or `venv\Scripts\activate` (Windows)
 - Dependencies: implementation and demo use only the standard library. Install coverage tooling via:
   - `pip install -r requirements.txt`
 

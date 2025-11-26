@@ -22,11 +22,12 @@ coverage html
 open htmlcov/index.html   # macOS; use your browser to open htmlcov/index.html on other platforms
 ```
 
+GitHub Actions also runs the coverage suite on every push/PR and uploads the generated `htmlcov` folder as an artifact. To view it: open the **Actions** tab, select the latest **coverage** workflow run, download the `htmlcov` artifact, and open `index.html` inside it.
 
 ## Run the demo message queue
 Execute the sample producer/consumer flow:
 ```
-python demo-mq.py
+python3 demo-mq.py
 ```
 You should see the source and destination lists printed, showing that all items were transferred through the queue.
 

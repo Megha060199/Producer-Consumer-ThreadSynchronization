@@ -3,7 +3,7 @@
 Lightweight demonstration of a bounded blocking queue with single producer, single consumer threads. The project includes a small demo script and an extensive unittest suite that can be run with coverage.
 
 ## Quick start
-- Clone: `git clone <repo-url> && cd MQ`
+- Clone: `git clone <repo-url> && cd Producer-Consumer-ThreadSynchronization`
 - Python: 3.10+ recommended.
 - Create venv: `python -m venv .venv`
 - Activate venv: `source venv/bin/activate` (macOS/Linux) or `venv\Scripts\activate` (Windows)
